@@ -1,5 +1,4 @@
 import Server from "./server";
-import { sequelize } from "./models"; 
 
 const server = new Server();
 const app = server.getInstance();
