@@ -1,5 +1,4 @@
-import {
-    Table,
+import {    
     Column,
     Model,
     PrimaryKey,
@@ -7,6 +6,7 @@ import {
     DataType,
     AllowNull,
     Unique,
+    Table,
 } from 'sequelize-typescript';
 
 @Table({

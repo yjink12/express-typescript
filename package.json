@@ -12,6 +12,7 @@
     "ejs": "~2.6.1",
     "express": "^4.16.4",
     "http-errors": "~1.6.3",
+    "sequelize": "^6.15.1",
     "sequelize-typescript": "^2.1.2"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "@types/express": "^4.17.13",
     "@types/morgan": "^1.9.3",
     "@types/node": "^17.0.14",
+    "@types/passport": "^1.0.7",
     "@types/sequelize": "^4.28.11",
     "@types/validator": "^13.7.1",
     "helmet": "^5.0.2",

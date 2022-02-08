@@ -1,7 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
+import login from '../routes/login'
 
 export default(app:express.Application) => {
-    app.use('/test', (req:Request, res:Response, next:NextFunction)=>{
-        res.send('hio');
-    });
+    app.use('/login', login);
 }
